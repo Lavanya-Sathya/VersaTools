@@ -45,6 +45,9 @@ function convert() {
         else if (inputVal == "" || inputVal === null || inputVal === undefined){
             throw new Error( "Enter a Number");
         }
+        else if (isNaN(inputVal)) {
+            throw new Error( "Enter a valid number");
+        }
         else{
             document.getElementById("err").style.display = "none";
 
