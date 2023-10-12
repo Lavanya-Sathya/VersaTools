@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LengthConverter</title>
+    <title>Temperature</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -16,19 +16,14 @@
             <div class="col-lg-2">
             </div>
             <div class="col-lg-8 mt-5">
-                <h1 class="text-center">Length Converter</h1>
+                <h1 class="text-center">Temperature Conversion</h1>
                 <div class="inputdiv mt-4 ">
                     <div class="alert alert-danger" id="err">
                     </div>
                     <select name="sel" id="selectConvert" class="form-select mb-3">
                         <option value="select">Select Conversion</option>
-                        <option value="CMtoInch">Centimeters to Inches</option>
-                        <option value="MtoF">Meters to Feet</option>
-                        <option value="KMtoM">Kilometers to Miles</option>
-                        <option value="MtoKM">Miles to Kilometers</option>
-                        <option value="InchtoF">Inches to Feet</option>
-                        <option value="KMtoMs">Kilometers to Meters</option>
-                        <option value="MMtoCM">Millimeters to Centimeters</option>
+                        <option value="TtoF">Celsius to Fahrenheit</option>
+                        <option value="FtoT">Fahrenheit to Celsius</option>
                     </select>
                     <input type="text" id="input" placeholder="Enter the Value" class="form-control mb-3" required>
 
@@ -47,7 +42,7 @@
     </div>
 
 
-    <script src="script.js">
+    <script src="index.js">
 
 
     </script>
