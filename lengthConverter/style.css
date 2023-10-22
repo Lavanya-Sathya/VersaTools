@@ -4,7 +4,7 @@ body{
     padding: 0;
     font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.6;
-    background-image: linear-gradient(50deg,rgb(233, 184, 233),rgb(234, 245, 217),rgb(173, 228, 162));
+    background-image: linear-gradient(50deg,#70a9a1,#cfe0c3,#9ec1a3);
 }
 #err, #btnAlert{
     display: none;
@@ -16,4 +16,12 @@ body{
     font-size: 2rem; 
     border-radius: 0.5rem;
     display: none;
+}
+.btn{
+    background-color: #40798c;
+    color: white;
+}
+.btn:hover{
+    background-color: #6698a8;
+    color: white;
 }

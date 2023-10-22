@@ -4,7 +4,7 @@ body{
     padding: 0;
     font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.6;
-    background-image: linear-gradient(50deg,rgb(233, 184, 233),rgb(234, 245, 217),rgb(173, 228, 162));
+    background-image: linear-gradient(50deg,#70a9a1,#cfe0c3,#9ec1a3);
 }
 
 h1{
@@ -20,21 +20,25 @@ table{
     margin-top:1rem;
     margin-bottom:1rem;
     border-radius: 0.2rem;
-    border-color:rgb(221, 189, 189);
+    border-color:#40798c;
 
 }
 .calValue{
     padding: 1rem 2rem;
-    background-color: rgb(221, 189, 189);
+    background-color: #40798c;
     border: none;
+    color: white;
+    border-radius: 4px;
 }
 .calValue:hover{
-    background-color: rgb(233, 150, 147);
+    background-color: #6698a8;
 }
 .stylebtn{
     border: none;
-    background-color: rgb(200, 226, 200);
+    background-color: #1f363d;
+    color: white;
+    border-radius: 4px;
 }
 .stylebtn:hover{
-    background-color: rgb(157, 202, 157);
+    background-color: #274953;
 }
