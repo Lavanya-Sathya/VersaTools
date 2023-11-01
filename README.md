@@ -6,7 +6,7 @@ This repository is created to demonstrate the JS skills, it consists of various 
 Currently, there are 4 projects that is developed as part of the internship program.
 
 ### Digital Clock
-<a href"https://versatools.netlify.app/digitalclock/" target="_blank">Click here</a> to visit Digital Clock and Stop watch.
+<a href="https://versatools.netlify.app/digitalclock/" target="_blank">Click here</a> to visit Digital Clock and Stop watch.
 
 ### Calculator
 [Click here](https://versatools.netlify.app/calculator/) to visit Calculator.
