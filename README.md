@@ -1,6 +1,6 @@
 
 
-# Java Script Projeccts
+# JavaScript Projects
 
 This repository is created to demonstrate the JS skills, it consists of various JavaScript Projects like DigitalClock, stopWatch, Calculator etc. Each folder in this repository consists of standalone projects.
 Currently, there are 4 projects that is developed as part of the internship program.
